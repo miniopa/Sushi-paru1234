@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.footer {
+  display: flex;
+  justify-content: center;
+  background-image: linear-gradient(to bottom, #000411, #030f14, #0e1615, #181a18, #1f1f1e); }
+  .footer small {
+    margin: 30px;
+    color: aliceblue; }
+
+.index .carousel {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: url(../img/fondosushi.jpg); }
+
+.index .fusion-peruano-oriental {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  position: relative;
+  top: 90px;
+  color: aliceblue;
+  font-size: 20px; }
+
+.index .carousel-item h1 {
+  color: orange;
+  margin: 200px;
+  font-family: 'Rubik Distressed', cursive; }
+
+.index #second-section {
+  background-color: #1B1B1E;
+  border-top: ridge;
+  border-bottom: ridge;
+  border-color: goldenrod; }
+  .index #second-section .introductionFPO {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: aliceblue; }
+    .index #second-section .introductionFPO h1 {
+      margin: 30px; }
+    .index #second-section .introductionFPO .jann {
+      border-radius: 10px;
+      border-style: ridge;
+      border-color: goldenrod; }
+    .index #second-section .introductionFPO p {
+      margin: 30px;
+      width: 40rem; }
+  .index #second-section #rollsshopping .rolls-drinks {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue; }
+    .index #second-section #rollsshopping .rolls-drinks img {
+      border-radius: 70px; }
+    .index #second-section #rollsshopping .rolls-drinks p {
+      color: grey; }
+
+.index #parusushiplaces .text {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  .index #parusushiplaces .text h1 {
+    margin: 50px; }
+  .index #parusushiplaces .text img {
+    margin: 20px; }
+  .index #parusushiplaces .text p {
+    text-align: center;
+    width: 415px; }
+
+.index #parusushiplaces .places {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .index #parusushiplaces .places .local {
+    text-align: center;
+    margin: 15px; }
+    .index #parusushiplaces .places .local h1 {
+      font-size: 30px; }
+    .index #parusushiplaces .places .local img {
+      width: 330px;
+      height: 350px;
+      border-radius: 10px; }
+    .index #parusushiplaces .places .local .tel-ubi {
+      display: flex;
+      flex-direction: column;
+      align-items: center; }
+      .index #parusushiplaces .places .local .tel-ubi i {
+        margin: 2px;
+        font-size: 18px; }
+
+.index .the-cards {
+  background-color: goldenrod;
+  border-top: ridge;
+  border-bottom: ridge;
+  border-color: black; }
+  .index .the-cards img {
+    max-width: 100%; }
+  .index .the-cards .columns {
+    display: flex; }
+  .index .the-cards .section-carta {
+    text-align: center; }
+
+.header img {
+  width: 100px;
+  height: 80px; }
+
+.header .nav-item li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none !important;
+  list-style: none; }
+
+.header .nav li {
+  display: flex !important;
+  margin: 15px; }
+
+.header .bn5 {
+  text-decoration: none;
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: white;
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px; }
+
+.header .bn5:before {
+  content: "";
+  background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowingbn5 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px; }
+
+@keyframes glowingbn5 {
+  0% {
+    background-position: 0 0; }
+  50% {
+    background-position: 400% 0; }
+  100% {
+    background-position: 0 0; } }
+
+.header .bn5:active {
+  color: #000; }
+
+.header .bn5:active:after {
+  background: transparent; }
+
+.header .bn5:hover:before {
+  opacity: 1; }
+
+.header .bn5:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #191919;
+  left: 0;
+  top: 0;
+  border-radius: 10px; }
+
+/* ***MEDIAQUERY*******MOBILE LAST */
+@media (max-width: 430px) {
+  .header .navbar div {
+    flex-direction: column;
+    align-items: center; }
+  .header .navbar div ul li a {
+    color: white; }
+  .introductionFPO .jann {
+    width: 25rem; }
+  .introductionFPO .parrafo {
+    text-align: center;
+    width: 300px !important; }
+  .rolls-drinks {
+    flex-direction: column !important; }
+  .carousel-inner .carousel-item h1 {
+    position: relative !important;
+    right: 130px;
+    font-size: 20px;
+    width: 300px; }
+  .index .the-cards .columns {
+    flex-direction: column; } }
+
+@media (max-width: 376px) {
+  .introductionFPO .jann {
+    width: 19rem; }
+  .index #parusushiplaces .text p {
+    width: 300px !important;
+    font-size: 20px; }
+  #parusushiplaces {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center; }
+  .carousel-inner .carousel-item h1 {
+    position: relative !important;
+    right: 155px;
+    font-size: 20px;
+    width: 300px; } }
+
+@media (max-width: 321px) {
+  .local img {
+    max-width: 100%; }
+  .carousel-inner .carousel-item h1 {
+    position: relative !important;
+    right: 190px;
+    font-size: 20px;
+    width: 300px; }
+  .footer {
+    display: flex;
+    text-align: center; } }

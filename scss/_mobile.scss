@@ -1,0 +1,83 @@
+/* ***MEDIAQUERY*******MOBILE LAST */
+@media (max-width:430px) {
+
+    //HEADER
+    .header .navbar div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header .navbar div ul li a {
+
+        color: white;
+
+    }
+
+
+
+
+
+
+    // MAINNN
+    .introductionFPO .jann {
+        width: 25rem;
+    }
+
+    .introductionFPO .parrafo {
+        text-align: center;
+        width: 300px !important;
+    }
+
+    .rolls-drinks {
+        flex-direction: column !important;
+    }
+
+    .carousel-inner .carousel-item h1 {
+        position: relative !important;
+        right: 130px;
+        font-size: 20px;
+        width: 300px;
+    }
+
+    .index .the-cards .columns {
+        flex-direction: column;
+    }
+}
+
+@media (max-width:376px) {
+    .introductionFPO .jann {
+        width: 19rem;
+    }
+    .index #parusushiplaces .text p{
+        width: 300px !important;
+        font-size: 20px;
+    }
+    #parusushiplaces{
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .carousel-inner .carousel-item h1 {
+        position: relative !important;
+        right: 155px;
+        font-size: 20px;
+        width: 300px;
+    }
+}
+
+@media (max-width:321px) {
+    .local img {
+        max-width: 100%;
+    }
+    .carousel-inner .carousel-item h1 {
+        position: relative !important;
+        right: 190px;
+        font-size: 20px;
+        width: 300px;
+    }
+
+    .footer{
+        display: flex;
+        text-align: center;
+    }
+}

@@ -1,0 +1,10 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom, #000411, #030f14, #0e1615, #181a18, #1f1f1e);
+
+    small{
+        margin: 30px;
+        color: aliceblue;
+    }
+}

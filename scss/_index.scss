@@ -1,0 +1,153 @@
+.index {
+
+    .carousel {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-image: url(../img/fondosushi.jpg);
+
+    }
+
+    .fusion-peruano-oriental {
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+        position: relative;
+        top: 90px;
+        color: aliceblue;
+        font-size: 20px;
+
+    }
+
+    .carousel-item {
+
+        h1 {
+            color: orange;
+            margin: 200px;
+            font-family: 'Rubik Distressed', cursive;
+        }
+    }
+
+    #second-section {
+        background-color: #1B1B1E;
+        border-top: ridge;
+        border-bottom: ridge;
+        border-color: goldenrod;
+
+        .introductionFPO {
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            color: aliceblue;
+
+            h1 {
+                margin: 30px;
+            }
+
+            .jann {
+                border-radius: 10px;
+                border-style: ridge;
+                border-color: goldenrod;
+            }
+
+            p {
+                margin: 30px;
+                width: 40rem;
+            }
+
+        }
+
+        #rollsshopping {
+
+            .rolls-drinks {
+
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                color: aliceblue;
+
+                img{
+                    border-radius: 70px;
+                }
+
+                p {
+                    color: grey;
+                }
+            }
+        }
+    }
+    #parusushiplaces{
+
+        .text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h1{
+                margin: 50px;
+            }
+
+            img{
+                margin: 20px;
+            }
+
+            p{
+                text-align: center;
+                width: 415px;
+            }
+
+        }
+
+        .places{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+
+            .local{
+                text-align: center;
+                margin: 15px;
+
+                h1{
+                    font-size: 30px;
+                }
+
+                img{
+                    width: 330px;
+                    height: 350px;
+                    border-radius: 10px;
+                }
+
+                .tel-ubi{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    i{
+                        margin: 2px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+
+    .the-cards{
+        background-color: goldenrod;
+        border-top: ridge;
+        border-bottom: ridge;
+        border-color: black;
+        img{
+            max-width: 100%;
+        }
+
+        .columns{
+            display: flex;
+        }
+
+        .section-carta{
+            text-align: center;
+        }
+    }
+}
